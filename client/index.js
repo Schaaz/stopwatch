@@ -19,7 +19,7 @@ startBtnObj.addEventListener("click",()=>{
         startBtnObj.textContent="Stop";
         isTimerRunning = true
         interval = setInterval(function(){
-            console.log("hi")
+            console.log("1 second passed.")
         }, 1000)
 
     }
